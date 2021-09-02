@@ -17,7 +17,6 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -26,6 +25,7 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+
 
 .bloc {
     width: 100%;
@@ -647,7 +647,9 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
-    transition: all .3s ease-in-out;
+    transition: all .3s 
+    ease-in-out;
+   
 }
 
 .scrollToTop span {
@@ -870,7 +872,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin: 20px auto;
+    margin: auto;
 }
 
 .portfolio-row {
